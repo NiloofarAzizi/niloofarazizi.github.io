@@ -9,44 +9,75 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0 auto;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
+    background: #007acc;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-header h1 {
+nav {
+    background: #006bb3;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    font-size: 3em;
-    color: #007acc;
+    text-align: center;
 }
 
-header p {
-    margin: 5px 0;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header a {
-    color: #007acc;
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 
-header a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-section {
-    margin-bottom: 20px;
+.header-content h1 {
+    margin: 0;
+    font-size: 3em;
 }
 
-section h2 {
+.header-content p {
+    margin: 5px 0;
+}
+
+.header-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-content a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    border-left: 4px solid #007acc;
+    background: #f9f9f9;
+}
+
+.section h2 {
     border-bottom: 2px solid #007acc;
     padding-bottom: 5px;
     color: #007acc;
+    margin-top: 0;
 }
 
 ul {
@@ -64,7 +95,9 @@ ul li strong {
 
 footer {
     text-align: center;
-    margin-top: 20px;
+    padding: 10px 0;
+    background: #007acc;
+    color: white;
 }
 
 footer p {
@@ -72,7 +105,7 @@ footer p {
 }
 
 footer a {
-    color: #007acc;
+    color: white;
     text-decoration: none;
 }
 
