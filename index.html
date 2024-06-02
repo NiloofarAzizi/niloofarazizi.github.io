@@ -5,152 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niloofar Azizi - Resume</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-                    <li><a href="#research"><i class="fas fa-flask"></i> Research</a></li>
-                    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-                    <li><a href="#awards"><i class="fas fa-trophy"></i> Awards</a></li>
-                    <li><a href="#patent"><i class="fas fa-certificate"></i> Patent</a></li>
-                    <li><a href="#publications"><i class="fas fa-book"></i> Publications</a></li>
-                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-                    <li><a href="#extracurricular"><i class="fas fa-star"></i> Extracurricular</a></li>
-                </ul>
-            </nav>
-            <div class="header-content">
-                <h1>Niloofar Azizi</h1>
-                <p><a href="https://www.linkedin.com/in/Niloofar-Azizi" target="_blank">LinkedIn</a></p>
-            </div>
-        </header>
-
-        <main>
-            <section id="about" class="section">
-                <h2>About</h2>
-                <p>Niloofar Azizi is a research scientist specializing in computer vision and machine learning, specifically focusing on graph neural networks.
-                    She is pursuing her PhD at Graz University of Technology under the supervision of Prof. Horst Bischof (2020-2024). 
-                    Before her PhD, Niloofar completed her Master's degree at the University of Bonn (2015-2018, Prof. Sven Behnke) and a Bachelor's degree from Shiraz University (2009-2013, Prof. Reza Boostani).</p>
-            </section>
-
-            <section id="research" class="section">
-                <h2>Research Interest</h2>
-                <ul>
-                    <li>Graph Neural Networks</li>
-                    <li>Machine Learning/Deep Learning</li>
-                    <li>Computer Vision</li>
-                </ul>
-            </section>
-
-            <section id="education" class="section">
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        <strong>Ph.D. in Computer Science</strong><br>
-                        Graz University of Technology, Apr. 2024, Graz, Austria<br>
-                        Supervisor: Prof. <a href="https://scholar.google.com/citations?user=_pq05Q4AAAAJ" target="_blank">Horst Bischof</a>.<br>
-                        Focus: Graph Neural Networks, 3D Human Pose Estimation
-                    </li>
-                    <li>
-                        <strong>M.Sc. in Computer Science</strong><br>
-                        Bonn University, Mar. 2018, Bonn, Germany<br>
-                        Supervisor: Prof. <a href="https://www.ais.uni-bonn.de/behnke/" target="_blank">Sven Behnke</a>.<br>
-                        Focus: Deep Learning, Machine Learning
-                    </li>
-                    <li>
-                        <strong>B.Sc. in Computer Engineering</strong><br>
-                        Shiraz University, Oct. 2013, Shiraz, Iran<br>
-                        Supervisor: Prof. <a href="https://scholar.google.com/citations?user=h-E-Ce4AAAAJ&hl=en" target="_blank">Reza Boostani</a>.<br>
-                        Focus: Hardware
-                    </li>
-                </ul>
-            </section>
-
-            <section id="publications" class="section">
-                <h2>Selected Publications</h2>
-                <ul>
-                    <li>N. Azizi, M. Fayyaz, and H. Bischof. Occlusion Handling in 3D Human Pose Estimation with Perturbed Positional Encoding. In ECCV, 2024.</li>
-                    <li>
-                        <strong>PerturbPE Occlusion Handling in 3D Human Pose Estimation</strong><br>
-                        Introduced a novel positional encoding for GNNs to handle occlusions.<br>
-                        Improved performance by 12% on benchmark datasets.
-                    </li>
-                    <li>N. Azizi, N. Kriege, M. Fayyaz, and H. Bischof. Enhanced Expressivity in Graph Neural Networks. In NeurIPS, 2024 (submitted).</li>
-                    <li>
-                        <strong>LLwLC Lanczos Layer with Linear Constraints</strong><br>
-                        Proposed a novel eigenbasis for enhancing GNN expressivity.<br>
-                        Achieved significant speedup and data reduction in link prediction tasks.
-                    </li>
-                    <li>N. Azizi, H. Possegger, E. Rodola, and H. Bischof. 3D Human Pose Estimation Using Möbius Graph Convolutional Networks. In ECCV, 2022.</li>
-                    <li>
-                        <strong>MöbiusGCN 3D Human Pose Estimation</strong><br>
-                        Developed a novel spectral GCN using Möbius Transformation.<br>
-                        Achieved state-of-the-art performance with 90-98% fewer parameters.
-                    </li>                    
-                    <li>N. Azizi, N. Wandel, and S. Behnke. Complex-valued Gated Auto-encoder for Video Frame Prediction. In ESANN, 2019.</li>
-                    <li>N. Azizi, H. Farazi, and S. Behnke. Location Dependency in Video Prediction. In ICANN, 2018.</li>
-                </ul>
-            </section>
-
-            <section id="experience" class="section">
-                <h2>Work Experience</h2>
-                <ul>
-                    <li>
-                        <strong>Researcher</strong><br>
-                        Graz University of Technology, Jan. 2020 – Jun. 2024, Graz, Austria<br>
-                        Austrian Research Promotion Agency (FFG)
-                    </li>
-                    <li>
-                        <strong>Researcher</strong><br>
-                        Dortmund University, Mar. 2019 – Dec. 2019, Dortmund, Germany<br>
-                        German Research Foundation (DFG)
-                    </li>
-                    <li>
-                        <strong>Researcher</strong><br>
-                        Bonn University, Mar. 2018 – Mar. 2019, Bonn, Germany<br>
-                        German Research Foundation (DFG)
-                    <li>
-                        <strong>Researcher</strong><br>
-                        Bonn University, Mar. 2018 – Mar. 2019, Bonn, Germany<br>
-                        German Research Foundation (DFG)
-                    </li>
-                </ul>
-            </section>
-
-            <section id="patent" class="section">
-                <h2>Patent</h2>
-                <ul>
-                    <li>Möbius Graph Convolutional Networks, Issued: Jan. 2022, Inventor: Niloofar Azizi</li>
-                </ul>
-            </section>
-           
-            <section id="awards" class="section">
-                <h2>Awards & Services</h2>
-                <ul>
-                    <li>Inventor Awards: MöbiusGCN innovation, Graz University of Technology, Jul. 2021 - Jun. 2023</li>
-                    <li>Invitee Speaker: ETH Zurich, May 2024; University of Vienna, Apr. 2024</li>
-                    <li>Workshops: Organized yearly workshops, 2009-2013, Shiraz, Iran</li>
-                </ul>
-            </section> 
-            
-            <section id="extracurricular" class="section">
-                <h2>Extracurricular Activities</h2>
-                <ul>
-                    <li>Advanced Ping Pong Player Won over 20 national/regional championships, Led training sessions, and Organized community ping pong events.</li>
-                    <li>Painter (Supervisor  <a href="https://www.henrydyson.co.uk/artists/hassan-meshkinfamfard" target="_blank">Hassan Meshkinfam</a>, 2000-2008).</li>
-                </ul>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2024 Niloofar Azizi. All rights reserved.</p>
-            <p>Connect with me on <a href="https://www.linkedin.com/in/Niloofar-Azizi" target="_blank">LinkedIn</a></p>
-        </footer>
-    </div>
+    <header>
+        <img src="profile.jpg" alt="Niloofar Azizi">
+        <h1>Niloofar Azizi</h1>
+        <p>Senior Researcher in Computer Vision and Machine Learning</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a senior researcher with a focus on computer vision and machine learning, currently working at [Current Institution]. My research interests include deep learning, image processing, and artificial intelligence.</p>
+        </section>
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            <ul>
+                <li><a href="link-to-paper">Title of the Paper 1</a>, Co-authors, Year</li>
+                <li><a href="link-to-paper">Title of the Paper 2</a>, Co-authors, Year</li>
+                <li><a href="link-to-paper">Title of the Paper 3</a>, Co-authors, Year</li>
+                <!-- Repeat for more publications -->
+            </ul>
+        </section>
+        <section id="workshops">
+            <h2>Workshops</h2>
+            <p>Details of workshops...</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Details of experience...</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Details of education...</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Computer Vision</li>
+                <!-- Add more skills -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:niloofar@example.com">niloofar@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Niloofar Azizi</p>
+    </footer>
 </body>
 </html>
